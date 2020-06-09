@@ -1,0 +1,28 @@
+TK:
+------
+
+Data normilization:
+- Normilization is a process to make sure our data is sound and it is unlikely to create issues
+- each record has a primary key
+- no fields are repeated
+- all fields relate directly to the key data
+- Each field entry contains a single data point
+- there are no redundant entries
+
+
+Table relationships:
+
+most common type of relationship = "one-to-many"
+one-to-many:
+- users to posts (one user can have many posts, but a single post only belongs to one user)
+- foot to toes (one foot has many toes, but for each toe it only belongs to one foot)
+WHEN WORKING WITH ONE-TO-MANY BE SURE TO KEEP IN MIND WHICH IS THE ONE AND WHICH IS THE MANY
+
+many-to-many:
+- bands to venues(one band will play at many different venues and each venue will host many different bands)
+- Writers to magazines(one writer may publish in many different magazines, and each magazine will have many writers that contribute)
+
+one-to-one:
+- citizens to SSN's(each citizen will have exactly one SSN and each SSN issued only points back to one citizen)
+
+TABLE RELATIONSHIPS IN SUMMARY: Figure out which piece of your data is the "one" and then discover the "many"
